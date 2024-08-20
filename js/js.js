@@ -100,4 +100,8 @@ var wow = new WOW(
      });
 }
 
+window.addEventListener("load",function(){
+  document.querySelector(".loding-page").classList.add("loded")   
+ });
+
   });
